@@ -527,6 +527,7 @@ svg {
   width: 271px;
   height: 327px;
   padding-left: 16px;
+  padding-bottom: 16px;
 }
 @media screen and (min-width: 1200px) {
   .banner__text-block {
@@ -537,7 +538,7 @@ svg {
   }
 }
 .banner__text {
-  font-size: 38px;
+  font-size: 30px;
   line-height: 36px;
   color: #ffffff;
 }
@@ -575,6 +576,7 @@ svg {
 }
 .banner__yellow-text {
   display: block;
+  margin-top: 40px;
   margin-bottom: 40px;
   font-weight: bold;
   font-size: 22px;
@@ -846,7 +848,7 @@ svg {
 @media screen and (min-width: 1200px) {
   .card {
     max-width: 400px;
-    height: 620px;
+    height: 520px;
     flex-grow: 1;
   }
   .card:nth-child(4),
