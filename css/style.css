@@ -1297,7 +1297,7 @@ svg {
 }
 @media screen and (min-width: 992px) {
   .materials__item {
-    width: 24%;
+    width: 33%;
   }
 }
 .materials__img {
@@ -1310,7 +1310,7 @@ svg {
 }
 @media screen and (min-width: 1200px) {
   .materials__img {
-    height: 251px;
+    height: 400px;
     margin-bottom: 34px;
   }
 }
