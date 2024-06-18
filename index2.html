@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="path/to/swiper.css">
+    <style>
+        .products {
+            padding: 20px;
+        }
+
+        .products__title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .products__text {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .products__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .products__slider-img {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<section class="products" id="products">
+    <div class="container">
+        <h2 class="title products__title">Наши работы</h2>
+        <p class="products__text">Завершенные работы для наших клиентов представлены ниже</p>
+
+        <div class="products__grid">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-1.jpg" alt="Наши работы">
+            </div>
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-2.jpg" alt="Наши работы">
+            </div>
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-3.jpg" alt="Наши работы">
+            </div>
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-4.jpg" alt="Наши работы">
+            </div>
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-5.jpg" alt="Наши работы">
+            </div>
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-6.jpg" alt="Наши работы">
+            </div>
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-7.jpg" alt="Наши работы">
+            </div>
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-8.jpg" alt="Наши работы">
+            </div>
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-9.jpg" alt="Наши работы">
+            </div>
+            <div class="swiper-slide">
+                <img class="products__slider-img" src="img/product-10.jpg" alt="Наши работы">
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="path/to/swiper.min.js"></script>
+</body>
+</html>
